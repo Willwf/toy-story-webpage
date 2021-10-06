@@ -1,0 +1,170 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+
+  background: url(./images/background.png);
+  background-size: cover;
+}
+
+/* Logo do Toy Story */
+
+.logo {
+  position: absolute;
+  left: 54px;
+  top: 47px;
+}
+
+/* Formulário para login */
+
+.login-form-card {
+  width: 44rem;
+  height: auto;
+  padding: 3rem 3.5rem;
+
+  background: radial-gradient(
+    91.5% 91.5% at 8.52% 8.5%,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.48) 100%
+  );
+  border-radius: 33.6842px;
+  backdrop-filter: blur(20px);
+}
+
+.login-form {
+  max-width: 100%;
+}
+
+.login-form-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #292929;
+}
+
+.login-form-description {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 2.2rem;
+  width: 75%;
+}
+
+.login-input {
+  width: 83.5%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  padding: 1.6rem 3.6rem;
+}
+
+.login-input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+
+  color: #a8a6a6;
+}
+
+.login-input.username {
+  margin: 2.3rem 0 1.6rem 0;
+}
+
+.login-btn {
+  width: 100%;
+  height: 4.9rem;
+  border-radius: 1rem;
+  border: none;
+
+  color: #ffffff;
+  background: linear-gradient(90.61deg, #4caf50 15.7%, #95d079 96.23%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+  margin-top: 3.5rem;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+
+  transition: 0.2s;
+}
+
+.login-btn:hover {
+  background: linear-gradient(90.61deg, #429945 15.7%, #8bc072 96.23%);
+  cursor: pointer;
+}
+
+.line {
+  border: 2px solid rgba(255, 254, 254, 0.3);
+  margin: 3.5rem 0 2.2rem 0;
+}
+
+.register {
+  width: 100%;
+  height: 4.9rem;
+  border: 2px solid #292929;
+  border-radius: 10px;
+  margin-bottom: 1.6rem;
+  background-color: #ffffff00;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+
+  transition: 0.2s;
+}
+
+.register:hover {
+  background-color: #00000015;
+  cursor: pointer;
+}
+
+.register.google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register.google img {
+  margin-right: 0.9rem;
+}
+
+.register.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0;
+}
+
+.register.facebook img {
+  margin-right: 0.9rem;
+}

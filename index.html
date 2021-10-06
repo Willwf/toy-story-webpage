@@ -5,24 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toy Story Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <img src="./images/toy-story-logo.png" alt="logo" class="logo" />
-    <form class="login-form">
-      <h1 class="login-form-title">Joy is yet to begin</h1>
-      <p class="login-form-description">
-        Enter your username & password to enjoy the bunch of awesome movies and
-        games
-      </p>
+    <!-- <div class="container"> -->
+    <div class="logo">
+      <img src="./images/toy-story-logo.png" alt="logo" />
+    </div>
 
-      <input type="text" name="username" placeholder="Username" />
-      <input type="password" name="password" placeholder="Password" />
+    <div class="login-form-card">
+      <form class="login-form">
+        <h1 class="login-form-title">Joy is yet to begin</h1>
+        <p class="login-form-description">
+          Enter your username & password to enjoy the bunch of awesome movies
+          and games
+        </p>
 
-      <div class="line"></div>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          class="login-input username"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          class="login-input password"
+          minlength="8"
+          required
+        />
+        <button class="login-btn" type="submit">Login</button>
 
-      <button class="register email">Register with email</button>
-      <button class="register google">Continue with Google</button>
-      <button class="register facebook">Continue with Facebook</button>
-    </form>
+        <div class="line"></div>
+
+        <button class="register email">Register with email</button>
+        <button class="register google">
+          <img src="./images/icons/google-icon.svg" alt="Google Icon" />
+          Continue with Google
+        </button>
+        <button class="register facebook">
+          <img src="./images/icons/face-icon.svg" alt="Facebook Icon" />
+          Continue with Facebook
+        </button>
+      </form>
+    </div>
+    <!-- </div> -->
   </body>
 </html>
