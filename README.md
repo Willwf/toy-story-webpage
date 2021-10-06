@@ -15,6 +15,10 @@ Construído com base [neste](<https://www.figma.com/file/7pK0vWHgEUp61FCgOm9BIe/
 - HTML
 - CSS
 
+Deploy do site feito no Vercel apenas para visualização. Não possui funcionalidades.
+
+> https://toy-story-webpage.vercel.app/
+
 ## Contato
 
 William Firmino – [@williamwf](https://twitter.com/williamwf)
