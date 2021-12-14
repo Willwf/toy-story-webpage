@@ -26,8 +26,8 @@ body {
 
 .logo {
   position: absolute;
-  left: 54px;
-  top: 47px;
+  left: 5.4rem;
+  top: 4.7rem;
 }
 
 /* Formulário para login */
@@ -42,8 +42,8 @@ body {
     rgba(255, 255, 255, 0.8) 0%,
     rgba(255, 255, 255, 0.48) 100%
   );
-  border-radius: 33.6842px;
-  backdrop-filter: blur(20px);
+  border-radius: 3.36842rem;
+  backdrop-filter: blur(2rem);
 }
 
 .login-form {
@@ -121,23 +121,23 @@ body {
 }
 
 .line {
-  border: 2px solid rgba(255, 254, 254, 0.3);
+  border: .2rem solid rgba(255, 254, 254, 0.3);
   margin: 3.5rem 0 2.2rem 0;
 }
 
 .register {
   width: 100%;
   height: 4.9rem;
-  border: 2px solid #292929;
-  border-radius: 10px;
+  border: .2rem solid #292929;
+  border-radius: 1rem;
   margin-bottom: 1.6rem;
   background-color: #ffffff00;
 
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
 
   transition: 0.2s;
 }
@@ -167,4 +167,19 @@ body {
 
 .register.facebook img {
   margin-right: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 34.5%;
+  }
+
+  .logo {
+    left: 3rem;
+    top: 3rem;
+  }
+
+  .logo img {
+    height: 12rem;
+  }
 }
