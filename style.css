@@ -169,7 +169,7 @@ body {
   margin-right: 0.9rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   :root {
     font-size: 34.5%;
   }
